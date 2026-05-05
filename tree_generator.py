@@ -3,7 +3,8 @@ import json
 import os
 from jinja2 import Template
 
-EXCEL_FILE = 'Department_Map.xlsx'
+excel_files = [f for f in os.listdir('.') if f.endswith('.xlsx')]
+EXCEL_FILE = excel_files[0] if excel_files else None
 TEMPLATE_FILE = 'template.html'
 OUTPUT_FILE = 'Dashboard.html'
 
