@@ -30,7 +30,7 @@ attack path representation, work tracker etc. Featuring a dark "cyber" theme wit
     
 3.  **Update the Map**: **You must run the update script the first time to generate your `Dashboard.html` file**.
       Every time you modify/update the exccel file you run **RUN_UPDATE.bat/update.sh** after it to update the dashboard.
-    *   **Windows**: Run `RUN_UPDATE_Windowuse.bat`.
+    *   **Windows**: Run `RUN_UPDATE_windowuse.bat`.
     *   **Linux**: Run `Update_linuxuse.sh`.
   
 **Note**
@@ -59,7 +59,7 @@ The "SHAREPOINT" can be changed to the required name of button.
   **`tree_generator.py`**: The script that reads your Excel file and builds the map.
   **`template.html`**: The design file that tells the map how to look and behave.
   **`Dashboard.html`**: The final result you open in your browser. **Note: This file is created only after you run the update script for the first time**.
-  **`UPDATE_Windowuse.bat`**: A quick shortcut for Windows users to refresh the map.
+  **`UPDATE_windowuse.bat`**: A quick shortcut for Windows users to refresh the map.
   **`UPDATE_linuxuse.sh`**: A quick shortcut for Linux users to refresh the map.
 
 ---
