@@ -48,9 +48,9 @@ attack path representation, work tracker etc. Featuring a dark "cyber" theme wit
   In the **template.html** file, between lines 160 to 170 you will onserve the below given line:
 
   ```
-    <a id="note-sp-btn" target="_blank" rel="noopener noreferrer">DOCUMENTS ↗</a>
+    <a id="note-sp-btn" target="_blank" rel="noopener noreferrer">SHAREPOINT ↗</a>
 ```
-The "DOCUMENTS" can be changed to the required name of button.
+The "SHAREPOINT" can be changed to the required name of button.
 
 ## File List
 
