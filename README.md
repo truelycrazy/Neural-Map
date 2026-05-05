@@ -31,14 +31,20 @@ attack path representation, work tracker etc. Featuring a dark "cyber" theme wit
 3.  **Update the Map**: **You must run the update script the first time to generate your `Dashboard.html` file**.
       Every time you modify/update the exccel file you run **RUN_UPDATE.bat/update.sh** after it to update the dashboard.
     *   **Windows**: Double-click `RUN_UPDATE.bat`.
-    *   **Linux**: Create a file named `update.sh`, paste the content below, and run it:
+    *   **Linux**: Create a file named `update.sh`, paste the content below:
   
   bash      
 ```
         #!/bin/bash
         echo "Updating Cybersecurity Neural Tree..."
         python3 tree_generator.py
+        echo "Dashboard is Updated"
 ```
+
+**RUN** 
+`chmod +x update.sh` *(To provide permission to shell file to run)*     
+Now you can freely use update.sh file 
+
 
 4.  **Open**: Double-click the newly created `Dashboard.html` to see your map.
 
