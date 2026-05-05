@@ -17,10 +17,14 @@ attack path representation, work tracker etc. Featuring a dark "cyber" theme wit
 
 ## How to Use It
 
-1.  **Fill the Excel**: Open `ANY_Excel_File.xlsx` and add your data.Excel file can be named anything to maintain multiple files
-  as per requirement with different names for different maps. The column names are to be maintained the same and there must be only 1 file in tool folder 
-  to be created dashboard on.
-2.  **Install Python tools**: You'll need these libraries:
+1. Download all files in a folder:
+        Windows: (ANy.xlsx ; UPDATE_windowuse.bat ; template.html ; tree_generator.py)
+        Linux: (ANy.xlsx ; template.html ; tree_generator.py)
+   
+2.  **Fill the Excel**: Open `ANY_Excel_File.xlsx` and add your data.Excel file can be named anything to maintain multiple files
+      as per requirement with different names for different maps. The column names are to be maintained the same and there must be only 1 file in tool folder 
+      to be created dashboard on.
+3.  **Install Python tools**: You'll need these libraries:
 
    bash
     ```
@@ -28,17 +32,17 @@ attack path representation, work tracker etc. Featuring a dark "cyber" theme wit
     ```
 
     
-3.  **Update the Map**: **You must run the update script the first time to generate your `Dashboard.html` file**.
+4.  **Update the Map**: **You must run the update script the first time to generate your `Dashboard.html` file**.
       Every time you modify/update the exccel file you run **RUN_UPDATE.bat/update.sh** after it to update the dashboard.
     *   **Windows**: Run `UPDATE_windowuse.bat`.
     *   **Linux**: Run `python3 tree_generator.py` command in terminal to update dashboard.
   
 
 
-4.  **Open**: Double-click the newly created `Dashboard.html` to see your map.
+5.  **Open**: Double-click the newly created `Dashboard.html` to see your map.
 
 ## EDITS
-  ** Direct Link Button**: Direct link button can be edited and changed to anything else too as per use in overall map. Follow the instructions below to do so:
+  **Direct Link Button**: Direct link button can be edited and changed to anything else too as per use in overall map. Follow the instructions below to do so:
 
   In the **template.html** file, between lines 160 to 170 you will onserve the below given line:
 
